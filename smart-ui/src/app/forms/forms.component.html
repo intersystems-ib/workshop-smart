@@ -122,7 +122,15 @@
         <mat-card class="option-card">
             <mat-card-header>
                 <div mat-card-avatar class="chart-header-image"></div>
-                <mat-card-title>Heart Rate Chart</mat-card-title>
+                <mat-card-title>
+                    <span *ngIf="type === 'heart'">Heart Rate Chart</span>
+                </mat-card-title>
+                <mat-card-title>
+                    <span *ngIf="type === 'blood'">Blood Pressure Chart</span>
+                </mat-card-title>
+                <mat-card-title>
+                    <span *ngIf="type === 'weight'">Weight Chart</span>
+                </mat-card-title>
                 <mat-card-subtitle>Evolution</mat-card-subtitle>
             </mat-card-header>  
             <mat-card-content>                    
