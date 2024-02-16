@@ -86,7 +86,7 @@ Your OAuth 2.0 is configured!
 
 ### FHIR configuration.
 
-It's time to configure our FHIR endpoint to work with our OAuth 2.0 configuration. From the [Management Portal](https://localhost:8443/csp/sys/%25CSP.Portal.Home.zen) click on ** Healt > FHIR > FHIR Configuration ** and now in **Server Configuration** you will see our configured FHIR endpoint, open it and click on **Edit** button to add our OAuth client in **OAuth Client Name** field.
+It's time to configure our FHIR endpoint to work with our OAuth 2.0 configuration. From the [Management Portal](https://localhost:8443/csp/sys/%25CSP.Portal.Home.zen) click on **Health > FHIR > FHIR Configuration** and now in **Server Configuration** you will see our configured FHIR endpoint, open it and click on **Edit** button to add our OAuth client in **OAuth Client Name** field.
 ![FHIR OAuth Configuration](/images/fhir_oauth_configuration.png)
 
 The name has to be the same that you used during the client configuration. Save it and that's all folks! 
