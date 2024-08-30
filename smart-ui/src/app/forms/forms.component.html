@@ -118,7 +118,7 @@
             </mat-card>
         </form>
     </div>
-    <div class="div-card">
+    <div *ngIf="type !== 'person'" class="div-card">
         <mat-card class="option-card">
             <mat-card-header>
                 <div mat-card-avatar class="chart-header-image"></div>
